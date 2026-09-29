@@ -4,8 +4,11 @@ import "./home.css";
 function Home() {
   return (
     <div className="home">
+
       <main className="hero">
+
         <div className="hero-content">
+
           <div className="available">
             <span></span>
             Available for opportunities
@@ -14,8 +17,7 @@ function Home() {
           <p className="hello">HELLO, I'M</p>
 
           <h1>
-            Abhirami
-            <span className="dot">.</span>
+            Abhirami<span className="dot">.</span>
           </h1>
 
           <h2>
@@ -44,34 +46,45 @@ function Home() {
             <a href="#">LinkedIn ↗</a>
             <a href="#">Instagram ↗</a>
           </div>
+
         </div>
 
-        <div className="hero-visual">
-          <div className="circle-bg"></div>
 
-          <div className="image-card">
+        <div className="hero-visual">
+
+          <div className="soft-circle"></div>
+
+          <div className="image-wrapper">
             <img
-              src="https://t4.ftcdn.net/jpg/12/55/90/89/360_F_1255908978_1z8mXc07iex390GVwHJ4gUYZ6iu4NZzM.jpg"
+              src="https://media.licdn.com/dms/image/v2/D5603AQGHghc-vCUNrg/profile-displayphoto-crop_800_800/B56Z53vxPSK0AI-/0/1780125473938?e=1792022400&v=beta&t=6uS_Cxx-CVHXy83AjKi1euKfJSYGVAbygCvHrLFaEpc"
               alt="Abhirami"
             />
           </div>
 
           <div className="floating-card">
-            <div className="code-icon">&lt;/&gt;</div>
 
-            <div>
+            <div className="code-icon">
+              &lt;/&gt;
+            </div>
+
+            <div className="card-text">
               <strong>MERN Stack</strong>
               <small>Developer</small>
             </div>
+
           </div>
 
-          <div className="star star-one">✦</div>
-          <div className="star star-two">✦</div>
-          <div className="heart">♡</div>
+          <div className="decor heart">♡</div>
+          <div className="decor star-one">✦</div>
+          <div className="decor star-two">✦</div>
+
         </div>
+
       </main>
 
+
       <section className="tech-section">
+
         <p>TECHNOLOGIES I WORK WITH</p>
 
         <div className="tech-list">
@@ -82,7 +95,9 @@ function Home() {
           <span>Node.js</span>
           <span>MongoDB</span>
         </div>
+
       </section>
+
     </div>
   );
 }
